@@ -1,0 +1,108 @@
+body {
+    background-color: pink;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 100px;
+
+  
+}
+
+h1 {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+button {
+    background-color:white;
+    color: black;
+    border: black;
+    padding: 11px 25px;
+   border-radius: 8px;
+    cursor: pointer;
+  
+}
+
+button:hover {
+    background-color:white;
+  transform: scale(0.9) ;
+}
+
+#trollButton {
+    position: absolute;
+    left: 600px;
+    top: 300px;
+
+}
+
+ #Yesbutton {
+   position: absolute;
+   left: 300px;
+   top: 300px;
+   
+ }
+
+#emoji {
+  position: absolute;
+  left: 70%;
+  top: 10%;
+  font-size: 50px;
+}
+
+#emojitwo {
+  position: absolute;
+  left: 20%;
+  top: 10%;
+  font-size: 50px;
+}
+
+body::before {
+    content: "💖";
+    font-size: 50px;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+
+body::after {
+    content: "💖";
+    font-size: 50px;
+    position: absolute;
+    top: 5%;
+    left: 70%;
+}
+
+.alertBox {
+    display: none;
+    position: fixed;
+    height: 780px;
+    width: 500px;
+    top: 720px;
+    left: 485px;
+    transform: translate(-50%, -50%);
+    background: linear-gradient( mistyrose, maroon);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+  z-index: 1;
+}
+
+#okButton {
+  background: blue;
+}
+
+#pic {
+  height: 300px;
+  width: 300px;
+}
+
+#video {
+  height: 300px;
+  width: 300px;
+}
+
+#reply {
+  color: black;
+}
